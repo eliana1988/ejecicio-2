@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MichiGuau</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
     <header class="header">
       <img
@@ -16,6 +24,8 @@
       />
 
       <nav class="navbar">
+        <label for="toggle-menu"> <i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu"/>
         <ul class="navbar-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">Rerservas</a></li>
@@ -34,14 +44,70 @@
             animales y respetuosas de los hogares.
           </p>
         </div>
-        <div class="hero-logo">
-          <img src="./recursos/home1.png" alt="logo-hero" class="logo" />
-        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="./recursos/home1.png" alt="logo-hero" class="hero-logo" />
+      </div>
       </section>
       <section id="seccion2">
         <h2>ESTAMOS EN ROSARIO. CONSULTANOS POR EL AREA DE COBERTURA ¡GUAU!</h2>
-        <button class="reserva">RESERVANOS ¡MUAI!</button>
+        <button class="reserva">RESERVANOS ¡MIAU!</button>
       </section>
+      <section>
+        <div class="info-clard-container">
+          <div class="info-card">
+            <img src="./recursos/pets.png" alt="pets">
+            <h3>¿Cómo funciona?</h3>
+            <p>Hacemos visitas diarias de una hora. En cada visita nos ocupamos de darles de comer, cambiar el agua, limpiar las bandejas sanitarias, hacerles compañía, jugar y mimarlos, Siempre teniendo en cuenta el temperamento y respetando sus tiempos. Cuando estamos en tu casa te enviamos la ubicación en tiempo real, fotos y videos.</p>
+          </div>
+          <div class="info-card">
+            <img src="./recursos/casa.png" alt="casa">
+            <h3>¿Por qué a domicilio?</h3>
+            <p>Los gatitos son animales territoriales. Con MichiGuau podes viajar con la tranquilidad de dejarlos en buenas manos y en su propio territorio, con sus olores, sus rutinas y sin someterlos al estrés de ser trasladados a un entorno nuevo. Antes de tu partida hacemos una entrevista previa para conocerlos y que nos muestres todo lo importante.</p>
+          </div>
+          <div class="info-card">
+            <img src="./recursos/ubicacion.png" alt="ubicacion">
+            <h3>¿Qué es la ubicación en tiempo real?</h3>
+            <p>Es una función de WSP que permite compartir la ubicación durante un plazo de tiempo específico con los participantes de un chat de grupo o con un contacto en un chat individual.</p>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div>
+          <h3>Contactanos🐶¡GUAU!</h3>
+            <div class="contacto-info">
+              <p>📧Mail:</b> michiguau@gmail.com</p>
+              </div>
+              <div class="contacto-info">
+                <p>📞Teléfono:</b> 341 5689755</p>
+              </div>
+              <h3>Buscanos en Redes 😻 ¡MIAU!</h3>
+              <div class="redes">
+                <img src="./recursos/_instagram-.png" alt="instagram">
+                <img src="./recursos/123717.png" alt="linkedin"> 
+              </div> 
+        </div>
+          <img src="./recursos/seguro-de-mascotas.png" alt="mascotas">
+
+      </section>
+        
     </main>
+    <footer>
+      <div>
+        <ul class="footer-links">
+          <li> <a href="#">Politicas de Reservas</a></li>
+          <li> <a href="#">Privacidad de datos personales </a></li>
+        </ul>
+      </div>
+        <div class="footer-img">
+          <div> <p>Hecho con 🧡 en NUCBA </p> 
+          </div>
+          <div>
+            <img src="./recursos/Logo_Editable - Michiguau.png.crdownload" alt="logo">
+          </div>
+         
+          
+        </div>
+    </footer>
   </body>
 </html>
